@@ -1,6 +1,6 @@
 ---
-description: gitbook을 적극활용해보자
+description: 메가테라 생존코스 3기 4/10 ~ 7/2 조민구
 ---
 
-# Devnote
+# Front-end Survival Megaptera
 
