@@ -1,16 +1,16 @@
 # 사전과제
 
-git pull request하기
+## git pull request하기
 
 
 
-&#x20;pull request(PR)이란?
+#### &#x20;pull request(PR)이란?
 
 '내가 작업한 코드가 있으니 당신의 레퍼지토리에 볼수있게 게시해둘게요. 확인후에 pull해주세요'라는 뜻이다. 이러한 방법으로 내가 권한이 없는 레퍼지토리 관리자에게 내가 작업한 코드를 보여 줄 수 있다. 즉 다른 사람과 협업을 하기위해 내가 작업한 코드를 공유하는 방법이다.&#x20;
 
 
 
-pull request(PR)하는 방법
+#### pull request(PR)하는 방법
 
 1. 상대의 깃 레퍼지토리를 Fork하기
 
