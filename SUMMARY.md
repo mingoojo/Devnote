@@ -6,3 +6,7 @@
   * [사전과제](undefined-1.md)
 * [week1](week1/README.md)
   * [개발환경 구축](1/undefined.md)
+
+## Additional
+
+* [DOM이란?](additional/dom.md)
