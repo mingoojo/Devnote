@@ -1,4 +1,4 @@
-# react
+# React
 
 ### React의 특징
 

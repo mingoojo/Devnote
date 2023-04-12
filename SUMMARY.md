@@ -6,9 +6,10 @@
   * [사전과제](undefined-1.md)
 * [week1](week1/README.md)
   * [개발환경 구축](1/undefined.md)
-  * [typescript](week1/typescript.md)
-  * [react](week1/react.md)
-  * [testing library](week1/testing-library.md)
+  * [TypeScript](week1/typescript.md)
+  * [React](week1/react.md)
+  * [Testing Library](week1/testing-library.md)
+  * [Parcel & ESLint](week1/parcel-and-eslint.md)
 
 ## Additional
 

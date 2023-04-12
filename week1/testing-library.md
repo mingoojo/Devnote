@@ -1,4 +1,4 @@
-# testing library
+# Testing Library
 
 ## jest
 
