@@ -10,7 +10,7 @@
 
 #### &#x20;Parcel 기본 설정!
 
-* "source": "./index.html"
+* package.json에 "main": "main.js"대신에 "source": "./index.html"입력하기!
 
 npm start를 했을때 폴더의 index.html을 기본으로 실행해 준다.
 
