@@ -264,22 +264,19 @@ test함수는 return값이 있어서 에러가 나고, test2함수는 return값�
 
 이런 형태의 타입은 if문을 사용한 함수에서 사용하면 좋다.
 
-````
-```typescript
+```
 function test(x: number): number{
     if (x > 5) {
         return x + 1; //에러남
     }
 }
-```
 
-```typescript
+
 function test2(x: number): number | void {
     if (x > 5) {
         return x + 1; // 에러안남
     }
 }
 ```
-````
 
 x가 5보다 작거나 같은경우에 undefined.가 되는데 test함수에서는 이러한 경우에도 number가 출력되어야 하기에 에러가 나고, test2와 같은경우는 void타입으로 빈값이 출력되기에 에러가 나지 않는다.
