@@ -280,3 +280,23 @@ function test2(x: number): number | void {
 ```
 
 x가 5보다 작거나 같은경우에 undefined.가 되는데 test함수에서는 이러한 경우에도 number가 출력되어야 하기에 에러가 나고, test2와 같은경우는 void타입으로 빈값이 출력되기에 에러가 나지 않는다.
+
+
+
+### readonly
+
+readonly는 붙히고 싶은 자료형의 왼쪽에 작성하며, 한번 값을 할당하면 그때부터는 읽기 전용 속성이 되어 값이 바뀌지 않는다.
+
+```
+type name = {
+    readonly myname : string,
+}
+
+let mingoo :name = {
+    myname : 'Mingoo Jo'
+}
+
+mingoo.myname = 'Park' // 에러 발생
+```
+
+'mingoo'라는 변수의 myname값에 'Mingoo Jo'값을 부여하는 순간, 더 이상 변경이 불가능한 변수가 된다. 이후 'Park'이라고 변경을 하는 순간 에러를 발생시킨다.
