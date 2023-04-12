@@ -239,3 +239,25 @@ person = { name: '홍길동', age: 13, hp: 256, mp: 16 };
 
 
 Typescript는 실시간 오류검사를 위해 사용하는 언어로, 프로젝트가 커지면서 오류의 발생부분을 찾는게 힘들어 질때 가장 효율적이고, functional하게 작동될 수 있다! Typescript는 집합의 개념으로 받아들이면, 이해하기 좋다. 어떠한 변수는 어떤 영역에 속하고, 어떤 변수는 또 다른 영역에 속하는 집합의 개념으로 변수들을 생각하면 받아들이는데 거리낌을 줄일 수 있다.
+
+
+
+### additional typescript study
+
+#### void
+
+함수에 void 타입을 지정할 수 있다. void는 말 그대로 '빈값'을 의미하고 return이 없는 함수에 사용가능하다.
+
+
+
+```
+function test(x :number) :void { 
+  return x * 2 //여기서 에러남 
+} 
+
+function test2(x :number) :void { 
+  console.log( x * 2 )//에러 안남
+} 
+```
+
+test함수는 return값이 있어서 에러가 나고, test2함수는 return값이 없어서 에러가 나지 않는다.
