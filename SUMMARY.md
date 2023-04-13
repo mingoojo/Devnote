@@ -14,4 +14,4 @@
 ## Additional
 
 * [DOM이란?](additional/dom.md)
-* [Jest에 대하여](additional/jest.md)
+* [Jest에 대하여](additional/jest-less-than-jest-greater-than.md)
