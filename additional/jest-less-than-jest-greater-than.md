@@ -191,5 +191,11 @@ test('arrayinfo', ()=>{
 });
 ```
 
+#### 추가적으로  toMatch(), toThrow()이라는 Matcher도 있다. <a href="#tomatch" id="tomatch"></a>
+
 [https://www.daleseo.com/](https://www.daleseo.com/) 참고
+
+
+
+이외에도 많은 Matcher가 있고, React에서 사용되는 경우 다른 문법으로 작성되기도 한다. 항상 그때그때 찾아보고, 알아보는 습관을 갖도록 하자!
 
