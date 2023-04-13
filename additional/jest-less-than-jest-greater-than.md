@@ -38,7 +38,7 @@ $ npm install -D jest
 
 #### package.json 수정
 
-package.json 파일의 test항목을 수정한다.
+`package.json` 파일의 test항목을 수정한다.
 
 ```
 // package.json
@@ -71,7 +71,7 @@ test("테스트 설명", () => {
 });
 ```
 
-toXxx부분에 Matcher함수가 사용된다.
+`toXxx`부분에 Matcher함수가 사용된다.
 
 #### test.js 내용작성
 
@@ -86,7 +86,7 @@ test("adding", () => {
 
 #### npm test
 
-터미널에  `npm test`를 입력하면 아래와 같은 화면이 나온다.
+터미널에  `npm test`를 입력하면 테스트의 값이 통과가 되는지 안되는지를  평가한다. `test.js`에 **1+2의 값이 3과 같은가?** 라는 테스트값을 입력후 `npm test`을 입력하면 아래와 같이 나온다.
 
 ```
 $ npm test
@@ -106,7 +106,7 @@ Ran all test suites.
 
 
 
-npm test를 실행하면 프로젝트 내에 모든 테스트 파일을 찾아서 테스트를 실행해준다. Jest는 기본적으로 test.js로 끝나거나, \_\_test\_\_ 디렉터리 안에 있는 파일들은 모두 테스트 파일로 인식하는데, 만약 특정 테스트 파일만 실행하고 싶은 경우에는 npm test <파일명이나 경로>를 입력하면 된다.
+`npm test`를 실행하면 프로젝트 내에 모든 테스트 파일을 찾아서 테스트를 실행해준다. Jest는 기본적으로 `test.js`로 끝나거나, `__test__` 디렉터리 안에 있는 파일들은 모두 테스트 파일로 인식하는데, 만약 특정 테스트 파일만 실행하고 싶은 경우에는 `npm test <파일명이나 경로>`를 입력하면 된다.
 
 
 
@@ -114,7 +114,7 @@ npm test를 실행하면 프로젝트 내에 모든 테스트 파일을 찾아�
 
 #### toEqual() <a href="#toequal" id="toequal"></a>
 
-아래와 같은 함수에 1이라는 값을 넣으면 `` email: `user1@test.com` ``이 나오는지 확인하는데, toBe() Matcher를 사용하면 에러가 난다.
+아래와 같은 함수에 1이라는 값을 넣으면 `` email: `user1@test.com` ``이 나오는지 확인하는데, `toBe()` Matcher를 사용하면 에러가 난다.
 
 ```
 function getUser(id) {
@@ -131,7 +131,7 @@ test("EditEmail", () => {
   });
 ```
 
-이러한 경우 toEqual()로 Matcher부분을 교체하면 통과하게됩니다.
+이러한 경우 `toEqual()`로 Matcher부분을 교체하면 통과하게됩니다.
 
 ```
 function getUser(id) {
@@ -174,13 +174,13 @@ test("booleantest", () => {
 });
 ```
 
-위에 값 '0'은 falsy한 값이다. 자바스크립트에서 false, null, undefined, 0, NaN, '  '는 falsy한 값이라 toBeFalsy()라는 Matcher에 통과하고, 아래의 '0'은 숫자 0이 아니라 0(string)이라 toBeTruthy()라는 Matcher에 통과한다.
+위에 값 '0'은 `falsy`한 값이다. 자바스크립트에서 `false`, `null`, `undefined`, `0`, `NaN`, '  '는 `falsy`한 값이라 `toBeFalsy()`라는 Matcher에 통과하고, 아래의 `'0'`은 숫자 0이 아니라 0(string)이라 `toBeTruthy()`라는 Matcher에 통과한다.
 
 
 
 #### toHaveLength(), toContain() <a href="#tohavelength-tocontain" id="tohavelength-tocontain"></a>
 
-특정 배열에 길이를 체크할때 toHaveLength()라는 Matcher를 사용하고, 배열에 특정항목이 포함되어 있는지 확인할때 toContain() Matcher를 사용한다.
+특정 배열에 길이를 체크할때 `toHaveLength()`라는 Matcher를 사용하고, 배열에 특정항목이 포함되어 있는지 확인할때 `toContain()` Matcher를 사용한다.
 
 ```
 colorAry = ['red', 'green', 'yellow']
