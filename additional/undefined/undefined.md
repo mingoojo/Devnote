@@ -1,2 +1,48 @@
 # 동기와 비동기
 
+### 동기 (Synchronous)와 비동기(Asynchronous) <a href="#synchronous-asynchronous" id="synchronous-asynchronous"></a>
+
+```javascript
+// index.js 입력순서
+
+console.log('1st')
+
+setTimeout(() => {
+    console.log('2nd')
+}, 0);
+
+console.log('3rd')
+```
+
+`index.js`에 위와 같이 입력하면 1st >> 2nd >> 3rd 순서로 출력될것만 같은데.... 실제로 출력해보면?
+
+```javascript
+//console창에 출력되는 순서
+1st
+3rd
+2nd
+```
+
+이렇게 출력된다! 왜 그럴까??? 위에 입력값은 컴퓨터 입장으로 해석하면 아래와 같다.
+
+* 첫번째 줄에서 console.log("1st");를 만나고 콘솔에 1st를 찍는다.
+* 두번째 줄에서 console.log("2nd");를 setTimeout함수에 의해서 0초후에 찍는다.
+* 3번째 줄에서 console.log("3rd");를 콘솔에 찍는다.
+
+그러나  결과를로보면 "2nd"가  마지막에  찍힌다. 이유는 바로 setTimeout함수가 비동기식으로 작동되기 때문이다.
+
+### 비동기방식이란 무엇일까?
+
+동기방식과 비동기 방식이 뭔지 모를때 한 번에 이해가 되는 전설의 짤이있다.
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>동기와 비동기를 비유한 짤</p></figcaption></figure>
+
+위에 그림을 보면 손님이 주문을 하면 음식이 나오고 그 후에 다음 손님이 주문을 하는 방식이다. 즉 작업 A가 완료되어야 작업 B를 실행하는데 이걸 동기(Synchronous)라고 한다.
+
+반면에 아래의 그림은 손님의 주문을 받고, 음식이 나오지 않아도 다음 손님의 주문을 받는다. 그런 뒤 음식을 만드는 사람이 음식이 완료가 되면 손님을 부르는 방식이다. 이렇게 하면 주문을 받으면서 빠르게 해결 가능한 음식부터 완료할 수 있는데, 이걸 비동기(Asynchronous)라고 부른다.
+
+
+
+### 비동기가 필요한 이유
+
+동기는 디자인이 비동기보다 간단하고 직관적일 수 있지만 결과가 주어질 때 까지 아무것도 못하고 대기해야하는 문제가 있다. 비동기는 동기보다 복잡하지만 결과가 주어지는데 시간이 걸려도 그 시간 동안 다른 작업을 할 수 있어서 보다 효율적일 수 있다.
