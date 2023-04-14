@@ -31,7 +31,7 @@
 
 자바스크립트는 브라우저나 모바일과 같은 환경에서 작동한다. 즉 Chrome과 같은 브라우저가 자바스크립트 언어를 읽고 구동되는 방식인데 **런타임은 이렇게 언어로 만든 프로그램을 실행할 수 있는 환경을 의미한다.** 동기적으로 작동하는 자바스크립트가 비동기적으로 프로그램을 처리를 할 수 있는 이유도 런타임 환경이 제공하는 비동기적 환경 덕분이다.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 #### 런타임 환경이 제공하는 것
 
