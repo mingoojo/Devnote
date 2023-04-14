@@ -16,6 +16,7 @@
 * [개발 지식](additional/undefined/README.md)
   * [DOM이란?](additional/undefined/dom.md)
   * [동기와 비동기](additional/undefined/undefined.md)
+  * [\[JS\] 자바스크립트의 작동원리](additional/undefined/js.md)
 * [JEST](additional/jest/README.md)
   * [Jest기초](additional/jest/jest.md)
   * [JEST를 활용한 비동기적 테스트](additional/jest/jest-1.md)
