@@ -10,6 +10,7 @@
   * [React](week1/react.md)
   * [Testing Library](week1/testing-library.md)
   * [Parcel & ESLint](week1/parcel-and-eslint.md)
+* [week2](week2.md)
 
 ## Additional
 
@@ -26,3 +27,4 @@
 * [Vite를 이용한 개발환경](vite.md)
 * [Three.js](three.js.md)
 * [Adobe XD](adobe-xd.md)
+* [JSX](jsx.md)
