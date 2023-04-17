@@ -26,8 +26,10 @@
 ***
 
 * [Vite를 이용한 개발환경](vite.md)
-* [Interaction & Design](interaction-and-design/README.md)
-  * [Canvas](interaction-and-design/canvas/README.md)
-    * [Canvas 기초](interaction-and-design/canvas/canvas.md)
-    * [Three.js](interaction-and-design/canvas/three.js.md)
-  * [Adobe XD](interaction-and-design/adobe-xd.md)
+
+## Interaction & Design
+
+* [Canvas](interaction-and-design/canvas/README.md)
+  * [Canvas 기초](interaction-and-design/canvas/canvas.md)
+  * [Three.js](three.js.md)
+* [Adobe XD](adobe-xd.md)
