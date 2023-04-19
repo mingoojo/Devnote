@@ -24,6 +24,8 @@ JSX는 리엑트로 프로젝트를 개발할 때 사용하는 언어이므로, 
 
 #### JSX문법의 형태
 
+#### Example1
+
 ```javascript
 main.tsx
 
@@ -52,8 +54,6 @@ function App() {
 아래의 링크를 통해BABEL컴파일러를 통해  JSX를 자바스크립트 언어로 변환하는 것을 해볼 수 있다.
 
 {% embed url="https://babeljs.io/repl#?browsers=defaults%2C%20not%20ie%2011%2C%20not%20ie_mob%2011&build=&builtIns=false&corejs=3.21&spec=false&loose=false&code_lz=GYVwdgxgLglg9mABAQQA6oBQEoDeAoASACcBTKEIsDPRWxAgHgBMYA3APhru8YAsBGRDCaIAvIgDksKABsSE9rxIyZcRAHc4RGUwYB6AZ27d9LDl1pY8AXyA&debug=false&forceAllTransforms=false&modules=false&shippedProposals=false&circleciRepo=&evaluate=false&fileSize=false&timeTravel=false&sourceType=module&lineWrap=true&presets=env%2Creact%2Cstage-2&prettier=false&targets=&version=7.21.4&externalPlugins=&assumptions=%7B%7D" %}
-
-#### Example1
 
 #### Example2
 
