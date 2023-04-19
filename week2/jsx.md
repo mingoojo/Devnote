@@ -1,6 +1,6 @@
 # JSX
 
-### XML이란?
+### JSX전에, XML이란?
 
 XML(Extensible Markup Language:확장가능한 마크업언어)은 컴퓨터와 사람이 읽을 수 있는 방식으로 텍스트 지정된 자료형으로, HTML과 매우 비슷한 문자 기반의 마크업 언어이다. 그러나 XML은 HTML과 달리 태그를 미리 지정하지 않고, 사용자가 직접 정의 할 수 있다.
 
@@ -20,7 +20,7 @@ XML의 중요한 특징은 다음과 같다.
 
 XML같은 문법의 확장 개념으로, 자바스크립트의 확장 문법이다. XML과 비슷한 형태를 띄며 JSX로 작성된 코드는 브라우저에서 실행되기 전에 바벨과 같은 컴파일러를 사용하여 일반 자바스크립트 형태의 코드로 변환된다.
 
-JSX는 리엑트로 프로젝트를 개발할 때 사용하는 언어이므로, 자바스크립트 문법은 아니다. 또한 JSX는 하나의 파일에 자바스크립트와 HTML을 동시에 작성할 수 있어서 편리하다. 또한 HTML과 비슷한 형태를 띄고 있기에 가독성이 좋다.
+JSX는 리엑트로 프로젝트를 개발할 때 사용하는 언어이므로, 자바스크립트 문법은 아니다. 또한 JSX는 하나의 파일에 자바스크립트와 HTML을 동시에 작성할 수 있어서 편리하다. 또한 HTML과 비슷한 형태를 띄고 있기에 가독성이 좋다. 그리고, React에서만 사용되는 문법이 아니라 범용성도 좋다.
 
 #### JSX문법의 형태
 
@@ -52,6 +52,18 @@ function App() {
 아래의 링크를 통해BABEL컴파일러를 통해  JSX를 자바스크립트 언어로 변환하는 것을 해볼 수 있다.
 
 {% embed url="https://babeljs.io/repl#?browsers=defaults%2C%20not%20ie%2011%2C%20not%20ie_mob%2011&build=&builtIns=false&corejs=3.21&spec=false&loose=false&code_lz=GYVwdgxgLglg9mABAQQA6oBQEoDeAoASACcBTKEIsDPRWxAgHgBMYA3APhru8YAsBGRDCaIAvIgDksKABsSE9rxIyZcRAHc4RGUwYB6AZ27d9LDl1pY8AXyA&debug=false&forceAllTransforms=false&modules=false&shippedProposals=false&circleciRepo=&evaluate=false&fileSize=false&timeTravel=false&sourceType=module&lineWrap=true&presets=env%2Creact%2Cstage-2&prettier=false&targets=&version=7.21.4&externalPlugins=&assumptions=%7B%7D" %}
+
+#### Example1
+
+#### Example2
+
+#### Example3
+
+#### Example4
+
+#### Example5
+
+이런식으로 JSX를 제외하고 React.createElement라는 자바스크립트의 문법을 활용하여 프로젝트를 만들어 갈 수도 있다. 그러나 프로젝트의 규모가 커지다 보면 JSX가 제공하는 편리함을 제외하고 프로젝트를 만들어 가기에 불편함을 느낄 수 있다. 즉 JSX는 프로젝트를 만들어가는 방식을 편리하게 해주는 **Syntactic suger**라고 할 수 있고, 필수적인 것 아니다.
 
 ### Syntactic sugar
 
