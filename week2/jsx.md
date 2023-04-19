@@ -148,29 +148,34 @@ function App() {
 
 
 
-### React Element
+### React Element & React.createElement
 
-
-
-### React.createElement
-
-React.createElement는 React 엘리먼트를 생성하는 자바스크립트의 문법이다. JSX는  React.createElement를 호출하는 편리한 문법이고, 즉 Syntactic suger이다.
+React.createElement는 React 엘리먼트를 생성하는 자바스크립트의 문법이다. JSX는  React.createElement를 호출하는 편리한 문법이고, 즉 Syntactic suger이다. 그래서 JSX를 사용하지 않고도 React Element를 구성해 나갈 수 있다.
 
 #### React.createElement의 문법
 
-&#x20;\- React.createElement의 기본 구조는 다음과 같다.
+* 지금까지 위에서 예시로 해본 React.createElement의 기본 구조는 다음과 같다.
 
 ```javascript
 React.createElement(태그명, 태그속성값, value값);}
 ```
 
+첫번째 항목은 넣을 태그에 대한 파라미터이다. 흔히 \<div>, \<p>등과 같은 html태그가 있고, component로 사용되는 태그도 입력이 가능하다.
+
+두번째 항목은 태그에 넣을 속성값이다. 여기서 입력하는 태그의 class, style, id 같은 값들을 지정해 줄 수가 있다. 형태는 오브젝트 자료형을 띄고 {id : 'hihi', class : 'byby'}와 같은 형태이다.
+
+세번째 항목은 내용값, innerHTML이라고 생각하면 된다. 실제로 화면에 표시되는 내용을 입력하는 부분이다.
+
 ### React StrictMode
 
-### VDOM(Virtual DOM)이란?
+```javascript
+main.tsx
 
-* DOM이란?
-* DOM과 Virtual DOM의 차이
+root.render((
+	<React.StrictMode>
+		<App />
+	</React.StrictMode>
+));
+```
 
-### Reconciliation(재조정) 과정은 무엇인가?
-
-### React에서 JSX를 사용하는 목적
+위와 같이, 렌더링 과정에서 상위 노드로 React.StrintMode를 선언하면서 사용할 수 있다. Strict라는 말처럼 더욱 깐깐하게 렌더링을 실행하고, 그중 하나로 2번의 출력을 제공한다. 2번의 출력을 각각 비교함으로써, 디버그를 할 수 있다.

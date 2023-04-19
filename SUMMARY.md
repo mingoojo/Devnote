@@ -12,6 +12,7 @@
   * [Parcel & ESLint](week1/parcel-and-eslint.md)
 * [week2](week2/README.md)
   * [JSX](week2/jsx.md)
+  * [VDOM](week2/vdom.md)
 
 ## Additional
 
