@@ -27,27 +27,20 @@ JSX는 리엑트로 프로젝트를 개발할 때 사용하는 언어이므로, 
 #### Example1
 
 ```javascript
-main.tsx
-
-function App() {
-	return (
-		<div>
-			<div>Hello</div>
-			<div>World!</div>
-		</div>
-	);
+//jsx코드
+function App(){
+	return(
+    	<p> hello world</p>
+    )
 }
 ```
 
 위의 형태는 React를 작성하다보면 가장 많이 보는 형태이다. 저 형태의 구문이 JSX형태의 구문이고, 컴파일러를 통해 자바스크립트의 언어로 변환된 코드는 아래와 같다.
 
 ```javascript
-main.tsx
-
+//변환된 js코드
 function App() {
-  return React.createElement("div", null, React.createElement("h1", {
-    id: "title"
-  }, "hello world"));
+  return React.createElement("p", null, " hello world");
 }
 ```
 
@@ -57,13 +50,95 @@ function App() {
 
 #### Example2
 
+```javascript
+//jsx코드
+function App(){
+	return(
+    	<Greeting name="world" />
+    )
+}
+```
+
+```javascript
+//변환된 js코드
+function App() {
+  return React.createElement(Greeting, { name: "world" });
+}
+```
+
 #### Example3
+
+```javascript
+//jsx코드
+function App(){
+	return(
+    	<Button type="submit">Send</Button>
+    )
+}
+```
+
+```javascript
+//변환된 js코드
+function App() {
+  return React.createElement(Button, { type: "submit" }, "Send");
+}
+```
 
 #### Example4
 
+```javascript
+//jsx코드
+function App(){
+	return(
+    	<div className="test">
+	    <p>Hello, world!</p>
+	    <Button type="submit">Send</Button>
+        </div>
+    )
+}
+```
+
+```javascript
+//변환된 js코드
+function App() {
+  return React.createElement(
+	"div",
+	{ className: "test" },
+	React.createElement("p", null, "Hello, world!"),
+	React.createElement(Button, { type: "submit" }, "Send")
+        );
+}
+```
+
 #### Example5
 
-이런식으로 JSX를 제외하고 React.createElement라는 자바스크립트의 문법을 활용하여 프로젝트를 만들어 갈 수도 있다. 그러나 프로젝트의 규모가 커지다 보면 JSX가 제공하는 편리함을 제외하고 프로젝트를 만들어 가기에 불편함을 느낄 수 있다. 즉 JSX는 프로젝트를 만들어가는 방식을 편리하게 해주는 **Syntactic suger**라고 할 수 있고, 필수적인 것 아니다.
+```javascript
+//jsx코드
+function App(){
+	return(
+	<div>
+		<p>Count: {count}!</p>
+		<button type="button" onClick={() => setCount(count + 1)}>Increase</button>
+	</div>
+    )
+}
+```
+
+```javascript
+//변환된 js코드
+function App() {
+  return React.createElement(
+	"div",
+	null,
+	React.createElement("p", null, "Count: ", count, "!"),
+	React.createElement("button", { type: "button", onClick: () => setCount(count + 1) }, "Increase")
+	);
+}
+```
+
+
+
+이런식으로 JSX를 제외하고 React.createElement라는 자바스크립트의 문법을 활용하여 프로젝트를 만들어 갈 수도 있다. 그러나 프로젝트의 규모가 커지다 보면 JSX가 제공하는 편리함을 제외하고 프로젝트를 만들어 가기에 다소 힘들 수 있다. 즉 JSX는 프로젝트를 만들어가는 방식을 편리하게 해주는 **Syntactic sugar**라고 할 수 있고, 필수적인 것 아니다.
 
 ### Syntactic sugar
 
@@ -71,11 +146,23 @@ function App() {
 
 * 중복되는 로직을 간결하게 표현하기 위해 사용한다.
 
+
+
 ### React Element
+
+
 
 ### React.createElement
 
 React.createElement는 React 엘리먼트를 생성하는 자바스크립트의 문법이다. JSX는  React.createElement를 호출하는 편리한 문법이고, 즉 Syntactic suger이다.
+
+#### React.createElement의 문법
+
+&#x20;\- React.createElement의 기본 구조는 다음과 같다.
+
+```javascript
+React.createElement(태그명, 태그속성값, value값);}
+```
 
 ### React StrictMode
 
