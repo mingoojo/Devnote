@@ -13,6 +13,7 @@
 * [week2](week2/README.md)
   * [JSX](week2/jsx.md)
   * [VDOM](week2/vdom.md)
+  * [\[과제 전\] E2E, CI란?](week2/e2e-ci.md)
 
 ## Additional
 
