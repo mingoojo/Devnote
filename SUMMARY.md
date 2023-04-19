@@ -31,6 +31,7 @@
 
 * [Publishing](interaction-and-design/publishing/README.md)
   * [웹표준이란?](interaction-and-design/publishing/undefined.md)
+  * [웹 표준을 준수하는 방법](interaction-and-design/publishing/undefined-1.md)
 * [Canvas](interaction-and-design/canvas/README.md)
   * [Canvas 기초](interaction-and-design/canvas/canvas.md)
   * [Three.js](three.js.md)
