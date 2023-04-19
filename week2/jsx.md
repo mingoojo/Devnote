@@ -60,3 +60,18 @@ function App() {
 * 중복되는 로직을 간결하게 표현하기 위해 사용한다.
 
 ### React Element
+
+### React.createElement
+
+React.createElement는 React 엘리먼트를 생성하는 자바스크립트의 문법이다. JSX는  React.createElement를 호출하는 편리한 문법이고, 즉 Syntactic suger이다.
+
+### React StrictMode
+
+### VDOM(Virtual DOM)이란?
+
+* DOM이란?
+* DOM과 Virtual DOM의 차이
+
+### Reconciliation(재조정) 과정은 무엇인가?
+
+### React에서 JSX를 사용하는 목적
