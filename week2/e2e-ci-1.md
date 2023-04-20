@@ -1,5 +1,15 @@
 # E2E, CI
 
+## E2E란?
+
+E2E(end to end)test는 개발물을 사용자 관점에서 테스트 하는 방법이다. 페이지에서 원하는 텍스트가 출력되는지, 버튼 클릭시 올바른 동작을 수행하는 지 등을 테스트 한다.
+
+
+
+### E2E프레임워크
+
+E2E프레임 워크는 selenium, testCafe, cypress, codecept등이 있고 우리는 codecept를 사용하기 위한 세팅과 사용법을 알아보자!
+
 ## codeceptjs 세팅 및 사용법!
 
 codeceptjs를 npx를 활용하여 설치하자!
