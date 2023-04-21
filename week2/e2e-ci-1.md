@@ -51,7 +51,7 @@ home_test.ts
 
 Feature('Home');
 
-Scenario('Visit the home page', ({I}) => {
+Scenario('home page', ({I}) => {
 	I.amOnPage('/');
 
 	I.see('Hello, world!');
