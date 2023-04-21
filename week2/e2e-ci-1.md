@@ -4,11 +4,11 @@
 
 E2E(end to end)test는 개발물을 사용자 관점에서 테스트 하는 방법이다. 페이지에서 원하는 텍스트가 출력되는지, 버튼 클릭시 올바른 동작을 수행하는 지 등을 테스트 한다.
 
-
-
 ### E2E프레임워크
 
 E2E프레임 워크는 selenium, testCafe, cypress, codecept등이 있고 우리는 codecept를 사용하기 위한 세팅과 사용법을 알아보자!
+
+
 
 ## codeceptjs 세팅 및 사용법!
 
@@ -62,3 +62,16 @@ Scenario('Visit the home page', ({I}) => {
 
 이렇게 작성하고 npm run codeceptjs를 작동하면 알아서 홈페이지에 들어가 Hello, world!라는 문구를 확인 할 수 있는지 체크하고 테스트 통과 여부를 표시한다!
 
+
+
+### 진행중 문제점
+
+```
+# 개발용 서버 실행
+$ npm start
+
+# E2E 테스트 실행
+$ npm run codeceptjs
+```
+
+개발한 환경을 `localhost`에서 확인하기 위해서는 최소 2개의 터미널을 띄워두어야 한다. `npm start`명령어를 실행하기 위한 터미널과 , codecept를 구동하기 위한 터미널! 사실 문제점은 아니긴 하다! 터미널2개 열어두고 하면 잘 돌아가기 때문!!  근데 그냥 이게 맞나 싶다...
