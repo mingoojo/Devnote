@@ -68,3 +68,9 @@ Greeting()이라는 함수를 main()의 root.render에 컴포넌트로 입력하
 
 결국 리엑트에서 리렌더링은 모든 상태 변경에서 시작된다.
 
+
+
+### IoC(Inversion of Control) - 제어의 역전
+
+
+

@@ -1,4 +1,4 @@
-# typescript
+# TypeScript
 
 ### typescript속 REPL사용법
 
@@ -8,6 +8,8 @@ npx ts-node
 ```
 
 터미널 속에서 REPL을 사용가능!
+
+* REPL : 콘솔 화면에서 코드를 입력하면 바로 결과를 반환하고 다시 입력할수 있는 도구.
 
 
 

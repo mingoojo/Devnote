@@ -1,6 +1,22 @@
 # 개발환경 구축
 
-TypeScript + React + Jest + ESLint + Parcel 개발 환경 세팅
+### TypeScript + React + Jest + ESLint + Parcel 개발 환경 세팅
+
+아래의 깃 링크 확인!
+
+
+
+### Node.js
+
+### NPM(Node Package Manager)
+
+### ES Modules vs CommonJS
+
+
+
+
+
+
 
 
 
