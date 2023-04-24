@@ -56,7 +56,7 @@ window.onload = () => {
 * 첫째로 클래스를 선언하고 윈도우가 온로드되면 클래스를 실행하도록한다.
 * 둘째로 constructor를 활용하여 canvas의 기본 세팅을 해준다.
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 이렇게 설정하고 크롬의 개발자 도구를 켜보면 다음과 같은 화면이 나온다. js를 활용하여 컨버스를 생성해보았다.
 
