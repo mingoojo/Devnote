@@ -1,4 +1,4 @@
-# 사전과제
+# 2. 사전과제
 
 ## git pull request하기
 

@@ -1,4 +1,4 @@
-# Parcel & ESLint
+# 5. Parcel & ESLint
 
 ### parcel이란?
 

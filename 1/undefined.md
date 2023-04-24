@@ -1,4 +1,4 @@
-# 개발환경 구축
+# 1. 개발환경 구축
 
 ### TypeScript + React + Jest + ESLint + Parcel 개발 환경 세팅
 

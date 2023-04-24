@@ -1,4 +1,4 @@
-# TypeScript
+# 2. TypeScript
 
 ### typescript속 REPL사용법
 
