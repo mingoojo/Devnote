@@ -15,7 +15,9 @@
   * [2. \[과제 전\] E2E, CI란?](week2/e2e-ci.md)
   * [3. E2E, CI](week2/e2e-ci-1.md)
 * [💻 week3](week3/README.md)
-  * [1. React Component](week3/1.-react-component.md)
+  * [1. React Component](week3/1.-react-component/README.md)
+    * [EP.1](week3/1.-react-component/ep.1.md)
+    * [EP.2](week3/1.-react-component/ep.2.md)
   * [2. React State](week3/2.-react-state.md)
 
 ## Additional

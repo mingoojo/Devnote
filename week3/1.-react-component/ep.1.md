@@ -1,18 +1,4 @@
-# 1. React Component
-
-## 학습키워드
-
-* REST API 와 GraphQL
-  * REST API 란 무엇인가
-  * GraphQL은 왜 등장했는가?
-  * REST API vs GraphQL
-* JSON
-* DSL(Domain-Specific Language)
-* 선언형 프로그래밍
-* 명령형 프로그래밍
-* SRP(단일 책임 원칙)
-* Atomic Design
-* React component 와 props
+# EP.1
 
 ## THINKING IN REACT(리엑트적인 방향으로(?) 생각하기)
 
@@ -87,9 +73,3 @@ react의 장점중 하나는 Component-Based, 즉 컴포넌트를 기반으로 �
 * CSS
 * Design's Layer
 * Information Architecture
-
-
-
-{% embed url="https://react.dev/learn/thinking-in-react" %}
-
-React 예제로 연습해보자!
