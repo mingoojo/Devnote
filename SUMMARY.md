@@ -28,6 +28,7 @@
   * [RestAPI & GraphQL](additional/undefined/restapi-and-graphql.md)
   * [Query](additional/undefined/query.md)
   * [CRUD란?](additional/undefined/crud.md)
+  * [JS Tips](additional/undefined/js-tips.md)
 * [JEST](additional/jest/README.md)
   * [Jest기초](additional/jest/jest.md)
   * [JEST를 활용한 비동기적 테스트](additional/jest/jest-1.md)
