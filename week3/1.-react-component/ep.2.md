@@ -1,10 +1,12 @@
 # EP.2
 
-
+## React 예제로 연습해보자!
 
 {% embed url="https://react.dev/learn/thinking-in-react" %}
 
-## React 예제로 연습해보자!
+## 선수지식
+
+
 
 ### 컴포넌트를 나누지 않고  App()에 다 넣은 경우
 
