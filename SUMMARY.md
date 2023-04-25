@@ -31,7 +31,7 @@
   * [Query](additional/undefined/query.md)
   * [CRUD란?](additional/undefined/crud.md)
   * [기억안날때마다 보는 자바스크립트TIP](additional/undefined/tip/README.md)
-    * [반복문](additional/undefined/tip/undefined.md)
+    * [반복문](additional/undefined/js-tips.md)
 * [JEST](additional/jest/README.md)
   * [Jest기초](additional/jest/jest.md)
   * [JEST를 활용한 비동기적 테스트](additional/jest/jest-1.md)
