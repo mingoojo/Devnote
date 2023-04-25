@@ -18,7 +18,8 @@
   * [1. React Component](week3/1.-react-component/README.md)
     * [EP.1](week3/1.-react-component/ep.1.md)
     * [EP.2](week3/1.-react-component/ep.2.md)
-  * [2. React State](week3/2.-react-state.md)
+  * [2. React State](week3/2.-react-state/README.md)
+    * [EP.1](week3/2.-react-state/ep.1.md)
 
 ## Additional
 
