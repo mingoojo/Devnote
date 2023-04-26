@@ -20,6 +20,7 @@
     * [EP.2](week3/1.-react-component/ep.2.md)
   * [2. React State](week3/2.-react-state/README.md)
     * [EP.1](week3/2.-react-state/ep.1.md)
+  * [3. week3 추가 공부 및 정리 할 사항](week3/3.-week3.md)
 
 ## Additional
 
