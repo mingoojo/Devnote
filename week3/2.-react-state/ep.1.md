@@ -1,8 +1,18 @@
 # EP.1
 
+## THINKING IN REACT(리엑트적인 방향으로(?) 생각하기)
+
+* &#x20;Step3 : Find the minimal but complete representation of UI state(최소한이지만 완벽한 상태의 스테이트를 찾아라!
+* &#x20;Step4 : Identify where your state should live(스테이트가 어디에 있게할지 결정하라)
+* &#x20;Step5 : Add inverse data flow(역흐름데이터를 추가해라...(Lifting state up))
+
 ## React의 State
 
 변경을 다루기 위한요소!!! 그냥 JS를 사용하지 않고, State를 사용하는 이유는 재랜더링때문이다. State가 변경될때 하위 컴포넌트까지 재랜더링이 일어난다.
+
+* useState : 변경이 일어나면 재랜더링이 일어남
+* useRef : 변경이 일어나면 재랜더링이 되지 않지만, 다른요소에 의해 재랜더링이 일어나면 같이 변경사항을 적용하여 paint한다.
+* 기본변수(let,const) : 변경이 일어나도 재랜더링이 되지 않고, 다른요소에 의해 재랜더링이 일어날때, 초기값으로 적용된다. - 랜더링이 일어나기 전까지만 자료가 살아있다.
 
 state의 사용 기본 형태
 
@@ -19,9 +29,16 @@ let [statename, setstatename] = useState(1)
 } 
 ```
 
+### State를 만들기 전에 이걸 기억하고 만들어라
+
+* DRY(Don't Repeat Yourself) 원칙 : 반복되지 않게 만들어라.
+* SSOT(Single Source of Truth) : 하나의 정보를 하나의 출처에서만 편집하도록하여라!
+
 ### state로 사용되어질 조건
 
 * 변경이 일어날 요소
 * props로 전달될 요소는 state가 아님.
 * 다른 state나 props를 이용해 계산 가능하다면 state가 아님.
+
+state가 많아지면 복잡해진다. 상태를 소유해야 컴포넌트는 의존적인 컴포넌트를 모두 소요하는 최상위컴포넌트가 state를 소유해야한다. - Lifting State Up
 
