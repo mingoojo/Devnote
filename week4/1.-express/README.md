@@ -1,0 +1,178 @@
+# 1. Express
+
+## 학습 키워드
+
+* Express 란
+* URL 구조
+* REST API
+* HTTP Method(CRUD)
+
+
+
+## Express
+
+{% embed url="https://expressjs.com/ko/" %}
+
+express.js는 NodeJs를 위한 웹 프레임워크의 하나로, 웹애플리케이션, API를 개발하기 위해 설계되었다. 비슷한 기능을 하는 프레임워크로는 Hapi.js, Koa.js등이 있지만 Expressrk 가장 많이 사용된다.
+
+
+
+#### 서버 앱 npm 패키지 개발환경 세팅
+
+1. 폴더지정
+
+<pre><code><strong>//터미널
+</strong><strong>
+</strong><strong>mkdir express-demo-app
+</strong>cd mkdir express-demo-app
+</code></pre>
+
+2. gitignore생성
+
+```
+touch .gitignore
+```
+
+`node_modules/` 추가
+
+3. 패키지 초기화, `package.json`생성
+
+```
+npm init -y
+```
+
+4. type script 생성
+
+```
+npm i -D typescript
+npx tsc --init
+```
+
+5. ESlint 생성
+
+```
+npm i -D eslint
+npx eslint --init
+```
+
+#### eslint setting
+
+* How would you like to use ESLint? : **To check syntax, find problems, and enforce code style**
+* What type of modules does your project use? : **JavaScript modules (import/export)**
+* Which framework does your project use? : **None of these**
+* Does your project use TypeScript? › **Yes**
+* Where does your code run? : _**Node**_
+* How would you like to define a style for your project? : **Use a popular style guide**
+* Which style guide do you want to follow? :  **XO: https://github.com/xojs/eslint-config-xo-typescript**
+* What format do you want your config file to be in? : **JavaScript**
+* Would you like to install them now? › **Yes** (의존성 설치여부)
+* Which package manager do you want to use? **npm**
+
+
+
+6. ts-node 설치
+
+* TS-node란 : ts-node는 TypeScript 실행 엔진이자 Node.js용 REPL이다.&#x20;
+
+<pre><code><strong>npm i -D ts-node
+</strong></code></pre>
+
+{% embed url="https://github.com/TypeStrong/ts-node" %}
+ts-node github
+{% endembed %}
+
+{% embed url="https://typestrong.org/ts-node/docs/" %}
+&#x20;
+{% endembed %}
+
+7. Express 설치
+
+```
+npm i express
+npm i -D @types/express
+```
+
+
+
+### express로 로컬서버열기!
+
+express로 로컬서버 여는 법.
+
+```javascript
+//app.ts
+
+import express from 'express';
+
+const port = 3000;
+const app = express();
+
+
+app.listen(port, () => {
+	console.log(`Server running at http://localhost:${port}`);
+}); //port라는 변수로 서버를 열어주고, 열리면 console.log를 실행해라!
+```
+
+`app.listen`은 클라이언트에서 서버에 접속할때 받아준다는 뜻! 즉 3000번 포트로 클라이언트의 요청을 받는다는 뜻이다.&#x20;
+
+<figure><img src="../../.gitbook/assets/Screen Shot 2023-05-01 at 18.12.29 PM.png" alt="" width="375"><figcaption><p>서버가 살아있을때</p></figcaption></figure>
+
+서버가 살아있으면 위와 같은 화면이 뜬다. 이후 get요청(read)을 하여 서버에 접속시 띄워줄 화면을 만들어 주자.
+
+실행 명령어는 `npx ts-node app.ts`이다. 또한 package.json의 script부분을 수정해서 `npm start`로 실행하게 할 수 있다.&#x20;
+
+```json
+package.json
+
+"scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node app.ts" //이 항목 추가!
+  },
+```
+
+### get 요청
+
+<pre class="language-javascript"><code class="lang-javascript"><strong>//app.ts
+</strong><strong>
+</strong>app.get('/', (req, res) => {
+	res.send('Hello, world');
+}); //req는 요청, res는 응답을 의미함. get요청을 받으면 res.send명령어로 'Hello, world'를 띄워달라는 뜻.
+</code></pre>
+
+이렇게 하면 화면에 `'Hello, world'`가 뜬다
+
+#### nodemon
+
+`npx ts-node app.ts`명령어로 서버를 띄워두면 내용이 변경되거나 할때마다, 서버를 껏다가 다시켜야한다. 이러한 번거로움을 없애기 위해 nodemon이라는 패키지를 설치해서 사용하면 변경시 바로 서버에 반영된다.
+
+* nodemon 설치
+
+```
+//터미널
+
+npm install nodemon
+```
+
+이후 package.json도 변경해주자!
+
+```json
+package.json
+
+"scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.ts" //이렇게 변경
+  },
+
+```
+
+이후 서버를 띄우고 파일이 변경되고 저장되면 자동으로 서버에 반영한다.
+
+
+
+### REST API
+
+* REST는 Representational State Transfer라는 용어의 약자로서 웹의 장점을 최대한 활용할 수 있는 아키텍처로써 REST가 만들어짐.
+*
+
+
+
+## URL 구조
