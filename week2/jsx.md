@@ -206,8 +206,8 @@ DOM은 간단히 말해 HTML문서를 브라우저가 이해할 수 있도록 �
 
 DOM에 대해 더 알고 싶다면 아래의 링크로!!
 
-{% content-ref url="../additional/undefined/dom.md" %}
-[dom.md](../additional/undefined/dom.md)
+{% content-ref url="../additional/undefined/1.-dom.md" %}
+[1.-dom.md](../additional/undefined/1.-dom.md)
 {% endcontent-ref %}
 
 
