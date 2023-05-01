@@ -19,7 +19,7 @@
   * [2. React State](week3/2.-react-state.md)
   * [3. 3주차 실습](week3/3.-3.md)
 * [💻 week4](week4/README.md)
-  * [1. Express](week4/1.-express/README.md)
+  * [1. Express](week4/1.-express.md)
     * [1-1.REST API](week4/1.-express/1-1.rest-api.md)
     * [1-2 HTTP](week4/1.-express/1-2-http.md)
   * [2. Fetch API & CORS](week4/2.-fetch-api-and-cors.md)
