@@ -212,7 +212,7 @@ DOM에 대해 더 알고 싶다면 아래의 링크로!!
 
 
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>브라우저의 동작방식</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p>브라우저의 동작방식</p></figcaption></figure>
 
 ### Reconciliation(재조정) 과정은 무엇인가?
 

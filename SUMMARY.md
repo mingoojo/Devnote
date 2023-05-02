@@ -32,6 +32,7 @@
 * [개발 지식](additional/undefined/README.md)
   * [🔍 1. DOM이란?](additional/undefined/1.-dom.md)
   * [🔍 2. 동기와 비동기](additional/undefined/2..md)
+  * [🔍 2-1. 블로킹과 논블로킹](additional/undefined/2-1..md)
   * [🔍 3. \[JS\] 자바스크립트의 작동원리](additional/undefined/3.-js.md)
   * [🔍 4. API](additional/undefined/4.-api.md)
   * [🔍 5. CRUD란?](additional/undefined/5.-crud.md)
