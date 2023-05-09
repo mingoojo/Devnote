@@ -28,7 +28,7 @@
 
 ### 웹사이트 구조에 맞는 태그
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### header
 
