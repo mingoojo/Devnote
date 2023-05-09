@@ -4,7 +4,7 @@
 
 시멘틱 테그는 "의미가 있는 태그"라는 뜻이다. 즉, HTML tag들 중에서도 나름의 의미가 있는 태그들을 말한다. 이러한 시멘틱 태그가 나오게 된 배경은 효율적이고, 누가봐도 어디가 타이틀인지, 메뉴바인지 한눈에 들어오게 하기 위함이다. 사실 모든 태그를 div로 작성해 DOM 트리를 구성해도 동작에는 크게 달라지는 것이 없다. class나 ID값을 활용해 구분한다면 다른 태그를 사용할 필요가 없다고 느낄 수도 있다.
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 이런 방식으로 작성하면, 작성 중에 편할 지 몰라도, 나중에 코드를 다시 열어보면 이게 뭔가 싶을 수 있다. 또한 내가 아닌 다른 사람이 이런식으로 코드를 작성했다면 나는 이 코드를 구분하기 위해 많은 시간을 투자해야 할 수도 있다. 그러한 이유로 적재적소에 맞는 태그를 사용하는 것을 지향하여야 하고, 이렇게 구조를 만드는 것에 익숙해져야 한다.
 
@@ -28,7 +28,7 @@
 
 ### 웹사이트 구조에 맞는 태그
 
-<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 #### header
 
