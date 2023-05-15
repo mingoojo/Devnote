@@ -30,6 +30,11 @@
   * [2. React Testing Library](week5/2.-react-testing-library.md)
   * [3.MSW](week5/3.msw.md)
   * [4.Playwright](week5/4.playwright.md)
+* [💻 week6](week6/README.md)
+  * [1.External Store](week6/1.external-store.md)
+  * [2.TSyringe](week6/2.tsyringe.md)
+  * [3.Redux](week6/3.redux.md)
+  * [4.usestore-ts](week6/4.usestore-ts.md)
 
 ## Additional
 
