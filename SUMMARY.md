@@ -53,6 +53,8 @@
 * [JEST](additional/jest/README.md)
   * [Jest기초](additional/jest/jest.md)
   * [JEST를 활용한 비동기적 테스트](additional/jest/jest-1.md)
+* [⚛ Redux](additional/redux/README.md)
+  * [Redux 개념](additional/redux/redux.md)
 
 ***
 
