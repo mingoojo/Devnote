@@ -51,12 +51,15 @@ package.json script에 "lint": "eslint --fix --ext .js,.jsx,.ts,.tsx ."를 작�
 
 #### vscode에서 자동 lint되게 하기
 
-프로젝트에 .vscode폴더를 생성, setting.json파일 생성
+프로젝트에 .vscode폴더를 생성, settings.json파일 생성
 
-```
+```json
 {
- "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": true
+   "editor.rulers": [
+      80
+  ],
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
     }
 }
 ```
