@@ -43,6 +43,7 @@
 * [💻 week8](week8/README.md)
   * [1. Design System](week8/1.-design-system.md)
   * [2.Style Basic](week8/2.style-basic.md)
+  * [3. CSS in JS](week8/3.-css-in-js.md)
 
 ## Additional
 
