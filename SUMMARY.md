@@ -60,27 +60,18 @@
 
 ## Additional
 
-* [개발 지식](additional/undefined/README.md)
-  * [🔍 1. DOM이란?](additional/undefined/1.-dom.md)
-  * [🔍 2. 동기와 비동기](additional/undefined/2..md)
-  * [🔍 2-1. 블로킹과 논블로킹](additional/undefined/2-1..md)
-  * [🔍 3. \[JS\] 자바스크립트의 작동원리](additional/undefined/3.-js.md)
-  * [🔍 4. API](additional/undefined/4.-api.md)
-  * [🔍 5. CRUD란?](additional/undefined/5.-crud.md)
-  * [🔍 6. npm에 관하여](additional/undefined/6.-npm.md)
-  * [RestAPI & GraphQL](additional/undefined/restapi-and-graphql.md)
-  * [Query](additional/undefined/query.md)
-  * [기억안날때마다 보는 자바스크립트TIP](additional/undefined/tip/README.md)
-    * [반복문](additional/undefined/js-tips.md)
-* [JEST](additional/jest/README.md)
-  * [Jest기초](additional/jest/jest.md)
-  * [JEST를 활용한 비동기적 테스트](additional/jest/jest-1.md)
-* [⚛ Redux](additional/redux/README.md)
-  * [Redux 개념](additional/redux/redux.md)
-
-***
-
-* [Vite를 이용한 개발환경](vite.md)
+* [🖱 Addition](additional/addition/README.md)
+  * [🔍 1. DOM이란?](additional/addition/1.-dom.md)
+  * [🔍 2. 동기와 비동기](additional/addition/2..md)
+  * [🔍 2-1. 블로킹과 논블로킹](additional/addition/2-1..md)
+  * [🔍 3. \[JS\] 자바스크립트의 작동원리](additional/addition/3.-js.md)
+  * [🔍 4. API](additional/addition/4.-api.md)
+  * [🔍 5. CRUD란?](additional/addition/5.-crud.md)
+  * [🔍 6. npm에 관하여](additional/addition/6.-npm.md)
+  * [RestAPI & GraphQL](additional/addition/restapi-and-graphql.md)
+  * [Query](additional/addition/query.md)
+  * [기억안날때마다 보는 자바스크립트TIP](additional/addition/tip/README.md)
+    * [반복문](additional/addition/tip/undefined.md)
 
 ## Interaction & Design
 
@@ -88,10 +79,3 @@
   * [웹표준이란?](interaction-and-design/publishing/undefined.md)
   * [웹 표준을 준수하는 방법](interaction-and-design/publishing/undefined-1.md)
   * [시멘틱 태그](interaction-and-design/publishing/undefined-2.md)
-* [Canvas](interaction-and-design/canvas/README.md)
-  * [Canvas 기초](interaction-and-design/canvas/canvas.md)
-  * [Three.js](three.js.md)
-
-***
-
-* [공부 목표!!](<undefined (1).md>)
